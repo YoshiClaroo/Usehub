@@ -2,168 +2,99 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>UseHub – Recursos online en tendencia</title>
+  <title>UsehHub – Recursos digitales en tendencia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Descubre recursos y herramientas online que muchas personas están usando actualmente desde el celular o PC.">
+  <meta name="description" content="UsehHub recopila recursos y herramientas online en tendencia, accesibles desde distintos dispositivos y países.">
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Inter', sans-serif;
-    }
-
-    body {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #ffffff;
-      min-height: 100vh;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    header h1 {
-      font-size: 2.6rem;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      opacity: 0.85;
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.08);
-      border-radius: 18px;
-      padding: 30px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
-      backdrop-filter: blur(8px);
-    }
-
-    .card h2 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-    }
-
-    .card p {
-      line-height: 1.7;
-      opacity: 0.95;
-      margin-bottom: 18px;
-    }
-
-    .features {
-      margin: 25px 0;
-    }
-
-    .features li {
-      list-style: none;
-      margin-bottom: 12px;
-      padding-left: 26px;
-      position: relative;
-    }
-
-    .features li::before {
-      content: "✔";
-      position: absolute;
-      left: 0;
-      color: #00e0ff;
-      font-weight: bold;
-    }
-
-    .cta {
-      text-align: center;
-      margin-top: 35px;
-    }
-
-    .cta a {
-      display: inline-block;
-      background: linear-gradient(135deg, #00e0ff, #00ffa3);
-      color: #0f2027;
-      padding: 16px 34px;
-      border-radius: 40px;
-      font-size: 1.1rem;
-      font-weight: 700;
-      text-decoration: none;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      box-shadow: 0 12px 30px rgba(0,0,0,0.35);
-    }
-
-    .cta a:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 18px 40px rgba(0,0,0,0.45);
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.85rem;
-      opacity: 0.6;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-
-      .card h2 {
-        font-size: 1.5rem;
-      }
-    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',sans-serif}
+    body{background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);color:#fff}
+    .container{max-width:900px;margin:auto;padding:40px 20px}
+    header{text-align:center;margin-bottom:40px}
+    header h1{font-size:2.6rem;font-weight:700}
+    header p{opacity:.85;margin-top:8px}
+    section{background:rgba(255,255,255,.08);border-radius:18px;padding:30px;margin-bottom:30px;backdrop-filter:blur(8px);box-shadow:0 20px 40px rgba(0,0,0,.25)}
+    section h2{font-size:1.6rem;margin-bottom:12px}
+    section p{line-height:1.7;margin-bottom:14px;opacity:.95}
+    ul li{list-style:none;margin-bottom:10px;padding-left:24px;position:relative}
+    ul li::before{content:"✔";position:absolute;left:0;color:#00ffa3}
+    .cta{text-align:center;margin-top:25px}
+    .cta a{background:linear-gradient(135deg,#00e0ff,#00ffa3);color:#0f2027;padding:16px 34px;border-radius:40px;font-weight:700;text-decoration:none;display:inline-block}
+    footer{text-align:center;font-size:.85rem;opacity:.6;margin-top:30px}
+    .small{font-size:.9rem;opacity:.75}
   </style>
 </head>
+
 <body>
+<div class="container">
 
-  <div class="container">
-    <header>
-      <h1>UseHub</h1>
-      <p>Recursos online que están siendo tendencia</p>
-    </header>
+<header>
+  <h1>UsehHub</h1>
+  <p>Recursos digitales y opciones online que están siendo tendencia</p>
+</header>
 
-    <section class="card">
-      <h2>¿Qué es UseHub?</h2>
-      <p>
-        UseHub es un espacio informativo donde recopilamos recursos y herramientas online
-        que muchas personas están utilizando actualmente para resolver tareas cotidianas
-        desde el celular o la computadora, sin procesos complicados.
-      </p>
+<section>
+  <h2>¿Qué es UsehHub?</h2>
+  <p>
+    UsehHub es una plataforma informativa dedicada a recopilar y presentar recursos,
+    herramientas y opciones digitales que muchas personas utilizan actualmente desde
+    dispositivos móviles y computadoras.
+  </p>
+  <p>
+    El contenido mostrado puede variar según el país, el dispositivo y la disponibilidad
+    de servicios en cada región. Nuestro objetivo es centralizar estas opciones en un
+    entorno simple y accesible.
+  </p>
+</section>
 
-      <p>
-        Existen múltiples opciones disponibles según el país, el dispositivo y el tipo de uso.
-        Nuestro objetivo es facilitar el acceso a esas alternativas en un solo lugar, de forma
-        simple y directa.
-      </p>
+<section>
+  <h2>¿Cómo funciona?</h2>
+  <ul>
+    <li>Accedés desde cualquier dispositivo</li>
+    <li>Explorás opciones disponibles según tu ubicación</li>
+    <li>No requiere registros obligatorios</li>
+    <li>Las alternativas pueden cambiar con el tiempo</li>
+  </ul>
 
-      <ul class="features">
-        <li>Acceso rápido desde móvil o PC</li>
-        <li>Opciones disponibles para distintos países</li>
-        <li>No requiere configuraciones complejas</li>
-        <li>Alternativas actualizadas regularmente</li>
-      </ul>
-
-      <div class="cta">
-        <a href="https://otieu.com/4/9347218" target="_blank" rel="nofollow noopener">
-          Ver opciones disponibles
-        </a>
-      </div>
-    </section>
-
-    <footer>
-      © 2026 UseHub · Página informativa
-    </footer>
+  <div class="cta">
+    <a href="https://otieu.com/4/9347218" target="_blank" rel="nofollow noopener">
+      Ver opciones disponibles
+    </a>
   </div>
+</section>
 
+<section>
+  <h2>Aviso importante</h2>
+  <p class="small">
+    UsehHub es una página de carácter informativo. No ofrecemos servicios propios ni
+    garantizamos resultados específicos. Las opciones externas pueden estar sujetas a
+    términos y condiciones de terceros.
+  </p>
+</section>
+
+<section>
+  <h2>Contacto</h2>
+  <p class="small">
+    Para consultas generales podés escribir a:<br>
+    <strong>contacto@usehhub.com</strong>
+  </p>
+</section>
+
+<section>
+  <h2>Términos de uso</h2>
+  <p class="small">
+    El uso de este sitio implica la aceptación de que UsehHub actúa únicamente como
+    intermediario informativo. El acceso a recursos externos es responsabilidad del
+    usuario.
+  </p>
+</section>
+
+<footer>
+  © 2026 UsehHub · Página informativa
+</footer>
+
+</div>
 </body>
 </html>
