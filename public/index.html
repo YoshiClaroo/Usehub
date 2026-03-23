@@ -66,17 +66,32 @@ body {
 <div class="text">Loading...</div>
 
 <script>
-let smartlink = "https://www.profitablecpmratenetwork.com/e3dpxz63xm?key=97a5d0dfb71c648e41d8321d873e82ca";
+// 🔥 SMARTLINKS (PONÉ LOS TUYOS)
+let links = [
+  {
+    name: "adsterra",
+    url: "https://www.profitablecpmratenetwork.com/e3dpxz63xm?key=97a5d0dfb71c648e41d8321d873e82ca"
+  },
+  {
+    name: "hilltop",
+    url: "https://flusteredexam.com/cGlKgP"
+  },
+  {
+    name: "adport",
+    url: "LINK_ADPORT"
+  }
+];
 
-// intento automático
+// 🎯 elegir random
+let selected = links[Math.floor(Math.random() * links.length)];
+
+// 🧠 guardar cuál se usó (para stats después)
+localStorage.setItem("lastNetwork", selected.name);
+
+// ⏳ delay tipo anuncio real
 setTimeout(() => {
-    window.location.href = smartlink;
-}, 2500);
-
-// backup por interacción (CLAVE)
-document.body.addEventListener("click", () => {
-    window.location.href = smartlink;
-});
+  window.location.href = selected.url;
+}, 2000);
 </script>
 
 </body>
